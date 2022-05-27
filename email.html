@@ -4,84 +4,129 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>It's a Match!</title>
 		<style type="text/css">
-			/* css goes here */
+			
+			@media only screen and (max-width: 660px){
+				table.container {width: 480px !important;}
+			 	 
+				#phone_1 img { width: 70%; height: 70%;}
+				#phone_2 img { width: 70%; height: 70%;}
+				#phone_3 img { width: 70%; height: 70%;}
+				#we_created img { width: 70%; height: 70%;}
+				#PALogo img { width: 70%; height: 70%;}
+
+			}
+
+			@media only screen and (max-width: 510px){
+				table.container {width: 100% !important; }
+
+				#phone_1 img { width: 80%; height: 80%;}
+				#phone_2 img { width: 80%; height: 80%;}
+				#phone_3 img { width: 80%; height: 80%;}
+				#we_created img { width: 80%; height: 80%;}
+				#PALogo img { width: 80%; height: 80%;}
+			}
+				
+			
 		</style>
 	</head>	
 
 	
 	<body style="width: 100%; background-image: url('images/elements/background_fixed.jpg');  background-repeat: no-repeat; 
-		background-size: 100% 100%; background-position: center top;">		
-		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		background-size: 100% 100%;">	<!--  background-position: center top;"-->	
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" >
 			<tr>
-				<td>
+				<td align="center">
 					<!-- Container starts here -->
-					<table class="container" width="640" border="0" cellpadding="0">
+					<table class="container" width="640px" border="0" cellpadding="0">
 						<!-- row 1/7 - logo row | bgcolor="ffffff" -->
 						<tr>
 							<!-- TODO: remove border -->
 							<!-- img style="margin-left: -15px;" border-left: 1px solid #dbc064; border-right: 1px solid #dbc064; border-top: 1px solid #dbc064; -->
-							<td valign="top" id="phone_1" class="phones"  style="padding: 10px 20px 0px 30px;">
-								<a href="#"> <img src="images/elements/phone_1.png" alt="Phone Image 1" width="1165px" height="2041px" border="0"> </a>
+							<td align="center" id="phone_1" class="phones" > <!-- style="padding: 20px 10px 20px 10px;" -->
+								<a href="#"> <img src="images/elements/phone_1.png" alt="Phone Image 1" width="500px" height="876px" border="0"> </a>	<!-- width="1165px" height="2041px" -->
 							</td>
 						</tr>
 						
 						<!-- row 2/7 -->
-						<tr>					<!-- style="border-left: 1px solid #dbc064; border-right: 1px solid #dbc064;-->
-							<td id="phone_2" valign="top" class="phones">
-								<a href="#"><img src="images/elements/phone_2.png" alt="Phone Image 2" width="1165px" height="2141px" ></a>
+						<tr>					<!-- style="border-left: 1px solid #dbc064; border-right: 1px solid #dbc064;   valign="top" -->
+							<td id="phone_2" align="center"  class="phones">
+								<a href="#"><img src="images/elements/phone_2.png" alt="Phone Image 2" width="625px" height="559px" ></a>
 							</td>
 						</tr>
 						<!-- row 3/7 -->
 						<tr>					<!--  style="border-left: 1px solid #dbc064; border-right: 1px solid #dbc064;" -->
-							<td id="phone_3" valign="top" class="phones">
-								<a href="#"><img src="images/elements/phone_3.png" alt="Phone Image 3" width="1165px" height="2141px" ></a>
-								
-							</td>
-						</tr>
-						<!-- row 4/7 -->
-						<tr>						<!-- style="border-left: 1px solid #dbc064; border-right: 1px solid #dbc064;" -->
-							<td id="phone_4" valign="top" class="phones">
-								<a href="#"><img src="images/elements/phone_4.png" alt="Phone Image 4" width="1165px" height="2141px" ></a>
+							<td id="phone_3" valign="top" class="phones" align="center">
+								<a href="#"><img src="images/elements/phone_3.png" alt="Phone Image 3" width="520px" height="745px" ></a>
 								
 							</td>
 						</tr>
 						<!-- row 5/7 -->
 						<tr>					<!--  style="border-left: 1px solid #dbc064; border-right: 1px solid #dbc064;"  -->
-							<td id="we_created" align="center" class="words" >
-								<a href="#"><img src="images/elements/we_created.png" alt="We Created..." width="892px" height="163px" ></a>
+							<td id="we_created" align="center" class="words" style="padding-top: 15px; padding-bottom: 43px;">
+								<a href="#"><img src="images/elements/we_created.png" alt="We Created..." width="320px" height="62px" ></a>
 							</td>
 						</tr>
 						<!-- row 6/7 | 3 button row -->
 						<tr>
 							<!-- TABLE FULL O' BUTTONS SON-->  <!-- border-right:1px solid #dbc064;  border-left:1px solid #dbc064;   -->
-							<td valign="top" class="buttons" style="padding: 10px 30px 25px 30px;">
-								<table id="products_table" class="buttons" halign="center">			<!-- width="297" -->
+							<td valign="top" class="buttons" style="padding-bottom: 30px;" >	<!--   style="padding: 10px 30px 25px 30px;" -->
+								<table id="products_table" align="center">			<!-- width="297"  class="prod_buttons" -->
 									<!-- button 1 of 3 | Dog Stairs-->
 									<!-- <tr> -->
 										<tr>
-										<td style="padding: 10px 15px 30px 30px;">		<!-- align="left" -->
-											<a href="#"><img src="images/elements/red_stairs.png" alt="Doggy Stairs" ></a>
-										</td>
+											<td class="test" id="stairs_elem" style="padding: 10px 5px 10px 5px;">		<!-- align="left" -->
+												<a href="https://amzn.to/3PKOMgN"><img src="images/elements/red_stairs.png" alt="Doggy Stairs" width="135px" height="249px"></a>	<!-- width="120px" height="222px"-->
+											</td>
 									<!-- </tr>
 
 									<!-- button 2 of 3 | Dog Car Seat-->
 									<!-- <tr> -->
-										<td style="padding: 10px 15px 30px 15px;">											<!--  align="right" -->
-											<a href="#"><img src="images/elements/car_seat.png" alt="Car Seat Button"></a>
-										</td>
+											<td id="carseat_elem" style="padding: 10px 5px 10px 5px;">											<!--  align="right" -->
+												<a href="https://amzn.to/3lKzlHM"><img src="images/elements/car_seat.png" alt="Car Seat Button" width="135px" height="249px"></a>
+											</td>
 									<!-- </tr> -->
 
 									<!-- button 3 of 3 | Dog Potty Tray-->
 									<!-- <tr> -->
-										<td style="padding: 10px 30px 30px 15px;">											<!-- align="right" -->
-											<a href="#"><img src="images/elements/potty_tray.png" alt="Doggy Potty Tray"></a>
-										</td>
+											<td id="pottytray_elem" style="padding: 10px 5px 10px 5px;">											<!-- align="right" -->
+												<a href="https://amzn.to/3PGYcKm"><img src="images/elements/potty_tray.png" alt="Doggy Potty Tray" width="135px" height="249px"></a>
+											</td>
 										</tr>
 									<!-- </tr> -->
 								</table>
 							</td>
 
 							
+						</tr>
+
+						<!-- row 7/7 | PetAwesome logo row -->
+						<tr>
+							
+							<td id="PALogo" align="center" style="padding: 30px 10px 30px 10px;">
+								<a href="#"><img src="images/elements/doggy_logo.png" alt="PetAwesome Logo" width="300px" height="291px"></a>
+							</td>
+						</tr>
+
+						<!-- row 7/8 | Social Buttons row -->
+						<tr>
+							<td class="buttons" align="center"> <!-- align="center"  valign="top"   style="padding: 10px 30px 25px 30px;" -->
+								<table id="socials_table" class="buttons" align="center">			<!-- halign="middle" -->
+									<!-- button 1 of 3 | Instagram-->
+										<tr>
+											<td style="padding-right: 5px;">		<!--  align="left"  align="left"  style="padding: 10px 5px 15px 30px;" -->
+												<a href="https://bit.ly/3srizBk"><img src="images/elements/instagram_btn_100.png" alt="Insta" width="40px" height="40px"></a>
+											</td>
+											<!-- button 2 of 3 | Email-->
+											<td style="padding-left: 5px; padding-right: 5px;">		<!-- align="left" align="center"    style="padding: 15px 5px 15px 30px;" -->
+												<a href="#"><img src="images/elements/email_btn_100.png" alt="Email" width="40px" height="40px"></a>
+											</td>
+											<!-- button 2 of 3 | TikTok-->
+											<td style="padding-left: 5px;">		<!-- align="left" align="right"    style="padding: 15px 5px 15px 30px;" -->
+												<a href="https://bit.ly/3LQCmAU"><img src="images/elements/tiktok_btn_100.png" alt="TikTok" width="40px" height="40px"></a>
+											</td>
+										</tr>
+								</table>
+							</td>
 						</tr>
 					</table>				
 				</td>
