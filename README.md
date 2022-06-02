@@ -16,4 +16,13 @@ The finished product that I ended up using was the file called email.html.
 
 Note: I had to move the background from the body tag or it wouldn't show up in email. I put it in the table element that body enclosed. 
 
+## Screenshots of Finished Product
+These were taken using Safari on MacOS
+
 ![screenshot_1](images/screenshots/email_screenshot_1.png)
+
+![screenshot_2](images/screenshots/email_screenshot_1.png)
+
+![screenshot_3](images/screenshots/email_screenshot_1.png)
+
+![screenshot_4](images/screenshots/email_screenshot_1.png)
