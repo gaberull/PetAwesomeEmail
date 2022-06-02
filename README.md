@@ -21,8 +21,8 @@ These were taken using Safari on MacOS
 
 ![screenshot_1](images/screenshots/email_screenshot_1.png)
 
-![screenshot_2](images/screenshots/email_screenshot_1.png)
+![screenshot_2](images/screenshots/email_screenshot_2.png)
 
-![screenshot_3](images/screenshots/email_screenshot_1.png)
+![screenshot_3](images/screenshots/email_screenshot_3.png)
 
-![screenshot_4](images/screenshots/email_screenshot_1.png)
+![screenshot_4](images/screenshots/email_screenshot_4.png)
