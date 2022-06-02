@@ -8,9 +8,9 @@ The finished product that I ended up using was the file called email.html.
 ## Process for emailing from gmail and chrome:
 1. copy html document from plain text editor
 2. Open gmail
-3. Insert some placeholder text like "PPP"
-4. Highlight placeholder text. Right click and inspect.
-5. On the highlighted portion in chrome editor tools, click edit as html
+3. Insert some placeholder text like "PPP" into email body
+4. Highlight placeholder text. Right click on it and click inspect.
+5. On the highlighted portion in the chrome dev tools, right click, click edit as html
 6. find placeholder text and carefully replace with pasted html code.
 7. Send email
 
