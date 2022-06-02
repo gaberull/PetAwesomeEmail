@@ -15,3 +15,5 @@ The finished product that I ended up using was the file called email.html.
 7. Send email
 
 Note: I had to move the background from the body tag or it wouldn't show up in email. I put it in the table element that body enclosed. 
+
+![screenshot_1](images/screenshots/email_screenshot_1.png)
