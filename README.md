@@ -3,7 +3,7 @@
 
 I was hired to build this marketing email for **Pet-Awesome** Pet Products. 
 
-I used ***html*** and ***CSS*** to complete the marketing email. The finished product that I ended up using was the file called email.html.
+I used **html** and **CSS** to complete the marketing email. The finished product that I ended up using was the file called email.html.
 
 ## Process for emailing from gmail and chrome:
 1. copy html document from plain text editor
